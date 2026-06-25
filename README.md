@@ -49,3 +49,73 @@ Every improvement in conversion rate directly increases paying subscribers, Mont
 What could go wrong if optimized blindly
 Aggressive tactics could force conversions while increasing refunds, churn, and support tickets — all of which are already showing early warning signs in this experiment. A high conversion rate means nothing if users cancel within 30 days or require excessive support to stay.
 
+#Task 4: Clean and Prepare Experiment Data#
+1. 1. Missing Values
+	
+Row-Labels	 Control	Treatment	 Grand-Total
+Desktop	      200	     214	      414
+Mobile	      428	     436	      864
+Tablet	      56	     56	          112
+(blank)	      9	         9	          18
+Grand-Total	 693	   715	          1408
+
+2. Row-Labels	Count of user_id
+   Control	        693
+   Treatment	    715
+   Grand-Total	   1408
+
+3. Total duplicate user_ids found - 8
+Unique user_ids duplicated - 5
+Control group duplicates - 3
+Treatment group duplicates - 5
+
+
+MISSING_Engagement_Score -	14
+MISSING_Days_To_Convert	- 1336
+MISSING_Traffic_Source	- 24
+MISSING_Device Type - 18
+
+Top 10 Revenues:
+Row Labels	Max of revenue_30d
+USR-100106	8610.72
+USR-100303	6788.95
+USR-100103	3887.98
+USR-101322	2660.21
+USR-100336	2206.88
+USR-100411	2144.82
+USR-100889	2064.55
+USR-101012	1938.31
+USR-101025	1906.23
+USR-101147	1858.85
+
+
+		
+Row-Labels	 Control	Treatment	Grand-Total
+East	     158	       172	      330
+North	     203	       180	      383
+South	     184	       184	      368
+West	     148	       179	      327
+Grand-Total	 693	       715	      1408
+
+Row-Labels	Control	Treatment	Grand-Total
+Desktop     	200	    214	     414
+Mobile	        428	    436	     864
+Tablet	        56	    56	     112
+(blank)	         9   	9	     18
+Grand-Total	   693	   715	     1408
+
+Row-Labels	Control	Treatment	Grand-Total
+Basic	        223	  235	     458
+Free	        361	  368	     729
+Premium	        109	  112	     221
+Grand-Total 	693	  715	    1408
+            
+	
+Row-Labels	Control	Treatment	Grand-Total
+Email	     74	     56	          130
+Organic	     246	 241	      487
+Paid Search 156	     176	      332
+Referral	 81	      91	      172
+Social	     130     133	      263
+(blank)       6	     18	           24
+Grand-Total	 693	715	         1408
